@@ -11,6 +11,7 @@ int main()
 	scanf("%d",&n);
 	printf("The natural numbers are ");
 	for(i=1;i<=n;i++)
-		printf("%d",i);
+	      	printf("%d",i);
+          return 0;
 	//Fill the missing code here
  }
