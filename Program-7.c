@@ -1,3 +1,4 @@
+  
 //INPUT - 3 1 2 3
 //OUTPUT- 3 2 1
 
@@ -6,13 +7,13 @@
 	int main()
 	{
 	  int a[10],i,n;
-	  printf("Enter size of the array and the array elements");
+	  //printf("Enter size of the array and the array elements");
 	  scanf("%d",&n);
 	  
 	  for(i=0;i<n;i++)
-	  scanf("%d",&a[]);//missing code
-	  printf("Array elements in reverse order : ");
-	  for(i=;i;i) //missing code
+	  scanf("%d",&a[i]);//missing code
+	 // printf("Array elements in reverse order : ");
+	  for(i=n-1;i>=0;i--) //missing code
 	  printf("%d ",a[i]);
 	  return(0);
 	}
